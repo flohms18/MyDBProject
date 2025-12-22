@@ -1,2 +1,11 @@
-databridge/__pycache__/__init__.cpython-312.pyc
-databridge/__pycache__/settings.cpython-312.pyc
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.log
+media/
+env/
+venv/
+ENV/
+__env__/            
