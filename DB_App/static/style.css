@@ -1,10 +1,33 @@
 :root {
     --primary : #0c0116;
-    --Secondary-text: #f8F9FA;
-    --Third-Alternative : #ff164c
+    --secondary: #eb1796;
+    --thirdary: #f8F9FA;
+}
+
+@font-face {
+    font-family: 'Montserrat-Font-Bold';
+    src: url('fonts/montserrat/Montserrat-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Montserrat--Regular';
+    src: url('fonts/montserrat/Montserrat-Regular.ttf') format('truetype');
 }
 
 
 html, body {
+    background-color: var(--thirdary);
+}
+
+.navbar, .navbar-menu, .navbar-item, .navbar-link, .navbar-dropdown {
     background-color: var(--primary);
+    color: var(--secondary);
+    font-family: 'Montserrat-Font-Bold', sans-serif;
+}
+
+
+
+.span-logo {
+    color: var(--thirdary);
+    font-style: ;
 }
