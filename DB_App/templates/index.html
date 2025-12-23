@@ -1,14 +1,10 @@
-{% load static %}
-<!DOCTYPE html>
-<html lang="en" data-theme="light">
-<head>
-    <meta charset="UTF-8">
-    <title>MyDBProject</title>
-    {% load django_simple_bulma %}
-    {% bulma %}
-    <link rel="stylesheet" href="{% static '/style.css' %}">
-</head>
-<body>
-    
-</body>
-</html>
+{% extends 'base.html' %}
+
+    {% block content %}
+    <section class="section">
+        <div class="container">
+            <h1 class="title">Welcome to the Home Page of MyDBProject!</h1>
+            <p class="subtitle">This is the main landing page.</p>
+        </div>
+    </section>
+    {% endblock %}
