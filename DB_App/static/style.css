@@ -83,6 +83,9 @@
     background-position: center;
     height: 1000px;
     width: 100%;
+    font-family: 'Montserrat-Font-Regular', sans-serif;
+    background-color: var(--primary);
+    color: var(--thirdary);
 }
 
 .intro-main-title-container {
@@ -103,5 +106,17 @@
     color: var(--secondary);
     font-size: 20px;
     font-style: italic;
+}
+
+.intro-text-pillar {
+    color: var(--secondary);
+    font-weight: bold;
+}
+
+.left-text {
+    font-family: 'Montserrat-Font-Regular', sans-serif;
+    color: var(--thirdary);
+    font-size: 1.5rem;
+    padding-top: 55%;
 }
     
