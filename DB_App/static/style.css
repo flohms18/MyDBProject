@@ -39,7 +39,7 @@
   font-style: italic;
 }
 
-/* Nav links */
+
 .navbar .nav-link {
   color: var(--thirdary) !important;
   font-weight: 500;
@@ -47,7 +47,6 @@
   transition: color 0.3s ease;
 }
 
-/* Hover effect */
 .navbar .nav-link::after {
   content: "";
   position: absolute;
@@ -67,7 +66,7 @@
   width: 100%;
 }
 
-/* Burger icon (mobile) */
+
 .navbar-toggler {
   border-color: rgba(255, 255, 255, 0.6);
 }
