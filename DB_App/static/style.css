@@ -89,10 +89,19 @@
     font-family: 'Montserrat-Font-Regular', sans-serif;
     color: var(--thirdary);
     text-align: center;
-    padding-top: 400px;
+    height: 200px;
+    padding-top: 100px;
+    background-color: var(--primary);
 }
 
 .intro-main-title {
     font-size: 60px;
+}
+
+.intro-subtitle{
+    font-family: 'Montserrat-Font-Bold', sans-serif;
+    color: var(--secondary);
+    font-size: 20px;
+    font-style: italic;
 }
     
