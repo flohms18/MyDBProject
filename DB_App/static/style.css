@@ -1,12 +1,77 @@
 :root {
     --primary : #0c0116;
-    --secondary: #eb1796;
+    --secondary: #ff164c;
     --thirdary: #f8F9FA;
 }
 
+@font-face {
+    font-family: 'Montserrat-Font-Bold';
+    src: url('fonts/montserrat/Montserrat-Bold.ttf') format('truetype');
+}
 
 
 @font-face {
     font-family: 'Montserrat-Font-Regular';
     src: url('fonts/montserrat/Montserrat-Regular.ttf') format('truetype');
+}
+
+.span-logo {
+    font-family: 'Montserrat-Font-Bold', sans-serif;
+    color: var(--thirdary);
+    font-style: italic;
+    
+}
+
+
+.navbar {
+  background-color: var(--primary);
+}
+
+/* Logo */
+.navbar-brand {
+    font-family: 'Montserrat-Font-Regular', sans-serif;
+  color: var(--thirdary) !important;
+}
+
+.navbar-brand .span-logo {
+  color: var(--thirdary);
+  font-family: 'Montserrat-Font-Bold', sans-serif;
+  font-style: italic;
+}
+
+/* Nav links */
+.navbar .nav-link {
+  color: var(--thirdary) !important;
+  font-weight: 500;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+/* Hover effect */
+.navbar .nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--secondary);
+  transition: width 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+  color: #f1f1f1 !important;
+}
+
+.navbar .nav-link:hover::after {
+  width: 100%;
+}
+
+/* Burger icon (mobile) */
+.navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.6);
+}
+
+.navbar-toggler-icon {
+  filter: invert(1);
 }
