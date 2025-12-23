@@ -42,9 +42,11 @@
 
 .navbar .nav-link {
   color: var(--thirdary) !important;
-  font-weight: 500;
   position: relative;
   transition: color 0.3s ease;
+    font-family: 'Montserrat-Font-Regular', sans-serif;
+    font-weight: bold;
+
 }
 
 .navbar .nav-link::after {
