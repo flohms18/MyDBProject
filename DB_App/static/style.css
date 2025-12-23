@@ -1,10 +1,10 @@
 :root {
-    --Myprimary-color: blue;
-    --secondary-color: #ff5722;
-    --font-family: 'Arial, sans-serif';
+    --primary : #0c0116;
+    --Secondary-text: #f8F9FA;
+    --Third-Alternative : #ff164c
 }
 
 
-body {
-    background-color: var(--Myprimary-color);
+html, body {
+    background-color: var(--primary);
 }
