@@ -3,8 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>MyDBProject</title>
+    {% load django_simple_bulma %}
+    {% bulma %}
 </head>
 <body>
-    <h1>Welcome to the Home Page of MyDBProject!</h1>
+    <div class="columns">
+        <div class="column has-background-link">First column</div>
+        <div class="column">Second column</div>
+        <div class="column">Third column</div>
+        <div class="column has-background-danger">Fourth column</div>
+    </div>
 </body>
 </html>
