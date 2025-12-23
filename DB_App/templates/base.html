@@ -4,16 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <title>MyDBProject</title>
-    {% load django_simple_bulma %}
-    {% bulma %}
+    {% load bootstrap5 %}
+    {% bootstrap_css %}
+    {% bootstrap_javascript %}
     <link rel="stylesheet" href="{% static '/style.css' %}">
 </head>
 <body>
     <header>
         <nav class="navbar" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
-    <a class="navbar-item has-text-weight-bold" href="https://bulma.io"><span class="span-logo">DATA</span>BRIDGE</a>
-
+<a class="navbar-item" href="https://bulma.io">
+  <span class="span-logo">DATA</span>BRIDGE
+</a>
     <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
@@ -23,7 +25,7 @@
   </div>
 
   <div id="navbarBasicExample" class="navbar-menu">
-    <div class="navbar-start is-centered">
+    <div class="navbar-start">
       <a class="navbar-item">A brief history of Data</a>
       <a class="navbar-item">2026 Data Market trends</a>
       <a class="navbar-item">Data Lab</a>

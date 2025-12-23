@@ -47,7 +47,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'DB_App',
-    'django_simple_bulma',
+    'bootstrap5',
 
 ]
 
