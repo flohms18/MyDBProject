@@ -84,7 +84,6 @@
     height: 1000px;
     width: 100%;
     font-family: 'Montserrat-Font-Regular', sans-serif;
-    background-color: var(--primary);
     color: var(--thirdary);
 }
 
@@ -113,10 +112,19 @@
     font-weight: bold;
 }
 
-.left-text {
-    font-family: 'Montserrat-Font-Regular', sans-serif;
+.intro-text-container {
+height: 100vh;
+margin: 0;
+background-color: var(--primary);
+}
+
+.intro-text-db {
+    font-family: 'Montserrat-Font-Bold', sans-serif;
     color: var(--thirdary);
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+    border: #06080D;
+    border-radius: 1px;
     padding-top: 55%;
+    font-weight: bolder;
 }
     
