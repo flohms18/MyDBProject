@@ -61,7 +61,7 @@
 }
 
 .navbar .nav-link:hover {
-  color: #f1f1f1 !important;
+  color: var(--thirdary) !important;
 }
 
 .navbar .nav-link:hover::after {
@@ -70,7 +70,7 @@
 
 
 .navbar-toggler {
-  border-color: rgba(255, 255, 255, 0.6);
+  border-color: var(--secondary);
 }
 
 .navbar-toggler-icon {
