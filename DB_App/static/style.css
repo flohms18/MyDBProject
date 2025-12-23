@@ -1,6 +1,6 @@
 :root {
-    --primary : #0c0116;
-    --secondary: #ff164c;
+    --primary : #06080D;
+    --secondary: #915CA0;
     --thirdary: #f8F9FA;
 }
 
@@ -76,3 +76,23 @@
 .navbar-toggler-icon {
   filter: invert(1);
 }
+
+.intro-picture {
+    background-image: url('./images/Designer.png');
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+    width: 100%;
+}
+
+.intro-main-title-container {
+    font-family: 'Montserrat-Font-Regular', sans-serif;
+    color: var(--thirdary);
+    text-align: center;
+    padding-top: 400px;
+}
+
+.intro-main-title {
+    font-size: 60px;
+}
+    
