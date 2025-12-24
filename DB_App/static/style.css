@@ -81,7 +81,7 @@
     background-image: url('./images/Designer.png');
     background-size: cover;
     background-position: center;
-    height: 1000px;
+    height: 800px;
     width: 100%;
     font-family: 'Montserrat-Font-Regular', sans-serif;
     color: var(--thirdary);
@@ -91,7 +91,7 @@
     font-family: 'Montserrat-Font-Regular', sans-serif;
     color: var(--thirdary);
     text-align: center;
-    height: 200px;
+    height: 250px;
     padding-top: 100px;
     background-color: var(--primary);
 }
@@ -122,9 +122,8 @@ background-color: var(--primary);
     font-family: 'Montserrat-Font-Bold', sans-serif;
     color: var(--thirdary);
     font-size: 1.3rem;
-    border: #06080D;
-    border-radius: 1px;
-    padding-top: 55%;
     font-weight: bolder;
+    background-color: var(--primary);
+    width: 100M;
 }
     
