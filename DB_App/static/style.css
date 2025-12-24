@@ -112,18 +112,29 @@
     font-weight: bold;
 }
 
-.intro-text-container {
-height: 100vh;
-margin: 0;
-background-color: var(--primary);
-}
 
-.intro-text-db {
+
+.intro-text-left {
     font-family: 'Montserrat-Font-Bold', sans-serif;
     color: var(--thirdary);
     font-size: 1.3rem;
     font-weight: bolder;
-    background-color: var(--primary);
-    width: 100M;
+    width: 70%;
+    padding-left: 40px;
+    height: 50px;
 }
+
+.intro-text-right {
+    font-family: 'Montserrat-Font-Bold', sans-serif;
+    color: var(--thirdary);
+    font-size: 1.3rem;
+    font-weight: bolder;
+    width: 70%;
+    padding-left: 40px;
+    height: 50px;
+    margin-left: auto;
+    padding-top: 50px;
+}
+
+
     
